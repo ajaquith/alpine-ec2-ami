@@ -72,3 +72,15 @@ v3_10-x86_64:
       build_time: 1568439262
       artifacts:
         us-east-1: ami-03b8c6c7c6e02f638
+    alpine-ami-3.10.2-x86_64-r6-arj:
+      description: Alpine Linux 3.10.2 x86_64 r6 - https://github.com/ajaquith/alpine-ec2-ami
+      profile: arj
+      profile_build: v3_10-x86_64
+      version: '3.10'
+      release: 3.10.2
+      arch: x86_64
+      revision: r6
+      end_of_life: '2021-05-01T00:00:00'
+      build_time: 1568608498
+      artifacts:
+        us-east-1: ami-039eb499c36219cad
